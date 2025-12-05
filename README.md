@@ -1,5 +1,5 @@
-# hackerrank
-Some hackerrank problem solutions using JavaScript
+# HackerRank
+Some HackerRank problem solutions using JavaScript
 
 ## License
 
