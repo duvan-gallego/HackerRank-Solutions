@@ -1,3 +1,6 @@
+
+// URL: https://www.hackerrank.com/challenges/balanced-brackets
+
 /*
  *
  * The function is expected to return a STRING.
@@ -7,7 +10,7 @@
 function isBalanced(s) {
 
     let stack = []
-    
+
     for (let i = 0; i < s.length; i++) {
         const char = s[i]
         if (char === "(" || char === "{" || char === "[") {
@@ -18,14 +21,14 @@ function isBalanced(s) {
                 stack.pop()
             } else {
                 return "NO"
-            }            
-        }            
+            }
+        }
     }
-        
+
     if (stack.length === 0) {
         return "YES"
     }
-    
+
     return "NO"
 }
 
