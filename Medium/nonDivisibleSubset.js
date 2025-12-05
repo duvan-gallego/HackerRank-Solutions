@@ -2,8 +2,6 @@
 // URL: https://www.hackerrank.com/challenges/non-divisible-subset/problem
 
 
-
-
 const nonDivisibleSubset = (k, s) => {
 
   let counts = new Array(k).fill(0)
